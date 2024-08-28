@@ -1,0 +1,58 @@
+<form  (ngSubmit)="onSubmit(user.Nombre,user.Direccion,user.Telefono,user.CodigoPostal,user.TipoUsuario,user.EstadoId,user.CiudadId,user.Login,user.password)">
+    <br>
+    <div class="container-sm card">
+        <div>
+            <label for="Nombre">Nombre</label>
+            <input class="form-control" id="Nombre"  [(ngModel)]="user.Nombre" [ngModelOptions]="{standalone: true}"/>
+          </div>
+          <div>
+            <label for="Direccion">Dirección</label>
+            <input class="form-control" id="Direccion"  [(ngModel)]="user.Direccion" [ngModelOptions]="{standalone: true}"/>
+          </div>
+          <div>
+            <label for="Telefono">Teléfono</label>
+            <input class="form-control" id="Telefono"  [(ngModel)]="user.Telefono" [ngModelOptions]="{standalone: true}"/>
+          </div>
+          <div>
+            <label for="CodigoPostal">Código Postal</label>
+            <input class="form-control" id="CodigoPostal"  [(ngModel)]="user.CodigoPostal" [ngModelOptions]="{standalone: true}"/>
+          </div>
+          <div>
+            <label for="TipoUsuario">Tipo de Usuario</label>
+            <input class="form-control" id="TipoUsuario"  [(ngModel)]="user.TipoUsuario" [ngModelOptions]="{standalone: true}"/>
+          </div>
+        
+          <div>
+            <label for="EstadoId">Estado</label>
+            <select class="form-select" id="EstadoId" [(ngModel)]="user.EstadoId" [ngModelOptions]="{standalone: true}" (change)="onEstadoChange()">
+                <option value="0">Selecciona un estado</option>
+                <option *ngFor="let estado of estados" [value]="estado.EstadoId">{{ estado.Nombre }}</option>
+              </select>
+              
+          </div>
+          <div>
+            <label for="CiudadId">Ciudad</label>
+            <select class="form-select" id="CiudadId" [(ngModel)]="user.CiudadId" [ngModelOptions]="{standalone: true}">
+              <option *ngFor="let ciudad of filteredCiudades" [value]="ciudad.CiudadId">{{ ciudad.Nombre }}</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="Login">Login</label>
+            <input class="form-control" id="Login"  [(ngModel)]="user.Login" [ngModelOptions]="{standalone: true}"/>
+          </div>
+          <div>
+            <label for="Password">Contraseña</label>
+            <input class="form-control" id="Password" type="password"  [(ngModel)]="user.password" [ngModelOptions]="{standalone: true}"/>
+          </div>
+          <hr>
+          <div  class="d-grid gap-2 col-2 mx-auto">
+            <button class="btn btn-custom btn-lg" type="submit">Registrar Usuario</button>
+          </div>
+          <br>
+    </div>
+   
+  </form>
+  
+  <!-- <input class="form-select" id="EstadoId"  [(ngModel)]="user.EstadoId" [ngModelOptions]="{standalone: true}"/> -->
+  <!-- <input class="form-select" id="CiudadId"  [(ngModel)]="user.CiudadId" [ngModelOptions]="{standalone: true}"/> -->

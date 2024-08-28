@@ -1,0 +1,23 @@
+/* src/app/user-list/user-list.component.css */
+.container {
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espaciado interno opcional */
+    max-width: 100%; /* Ajusta el ancho máximo del contenedor al 100% del viewport */
+    max-height: 80vh; /* Ajusta la altura máxima del contenedor */
+    background-color: #f9f9f9; /* Color de fondo opcional */
+    border-radius: 8px; /* Bordes redondeados opcional */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido excede la altura máxima */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinea el contenido hacia arriba */
+    align-items: center; /* Centra el contenido horizontalmente si es necesario */
+}
+
+.table-container {
+    width: 100%; /* Ajusta el ancho del contenedor interno para ocupar el 100% del ancho del contenedor padre */
+    max-width: 1200px; /* Ajusta el ancho máximo del contenedor interno */
+    margin-top: 20px; /* Ajusta la distancia desde la parte superior de la página */
+}
+

@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+
+.btn-custom {
+    background-color: #ff6633;
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #bb411b;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.centered-content {
+    width: 200px;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+/* user-list.component.css */
+/* Cambia el color de fondo del botón actual de paginación */
+/* styles.css */
+.ngx-pagination .current {
+    background-color: #ff6633 !important; /* Color de fondo para el botón de la página actual */
+    color: #ffffff !important; /* Color del texto del botón actual */
+}

@@ -1,0 +1,64 @@
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+  <br>
+    <div class="container-sm card">
+
+        <div>
+            <label for="nombre">Nombre</label>
+            <input class="form-control" type="text" id="nombre" [(ngModel)]="nombre" formControlName="Nombre" class="form-control" required>
+          </div>
+          <div>
+            <label for="direccion">Dirección</label>
+            <input class="form-control" type="text" id="direccion" [(ngModel)]="direccion" formControlName="Direccion" class="form-control">
+          </div>
+          <div>
+              <label for="telefono">Teléfono</label>
+              <input class="form-control" type="text" id="telefono" [(ngModel)]="telefono" formControlName="Telefono" class="form-control" required>
+            </div>
+            
+            <div>
+              <label for="codigoPostal">Código Postal</label>
+              <input class="form-control" type="text" id="codigoPostal" [(ngModel)]="codigoPostal" formControlName="CodigoPostal" class="form-control" required>
+            </div>
+            
+            <div>
+              <label for="tipoUsuario">Tipo de Usuario</label>
+              <input class="form-control" type="text" id="tipoUsuario" [(ngModel)]="tipoUsuario" formControlName="TipoUsuario" class="form-control" required>
+            </div>
+            
+            <div>
+              <label for="EstadoId">Estado</label>
+              <select class="form-select" id="estadoId" [(ngModel)]="estadoId" [ngModelOptions]="{standalone: true}" (change)="onEstadoChange()">
+                  <option value="0">Selecciona un estado</option>
+                  <option *ngFor="let estado of estados" [value]="estado.EstadoId">{{ estado.Nombre }}</option>
+                </select>
+                
+            </div>
+            <div>
+              <label for="CiudadId">Ciudad</label>
+              <select class="form-select" id="ciudadId" [(ngModel)]="ciudadId" [ngModelOptions]="{standalone: true}">
+                <option *ngFor="let ciudad of filteredCiudades" [value]="ciudad.CiudadId">{{ ciudad.Nombre }}</option>
+              </select>
+            </div>
+            
+            <div>
+              <label for="login">Login</label>
+              <input class="form-control" type="text" id="login" [(ngModel)]="login" formControlName="Login" class="form-control" required>
+            </div>
+            
+            <div>
+              <label for="password">Password</label>
+              <input class="form-control" type="password" id="password" [(ngModel)]="password" formControlName="Password" class="form-control" required>
+            </div>
+            <hr>
+    <div  class="d-grid gap-2 col-2 mx-auto">
+      <button class="btn btn-custom btn-lg" type="submit">Guardar</button>
+    </div>
+    <br>
+
+    </div>
+  </form>
+
+  
+  
+  <!-- <input class="form-control" type="number" id="estadoId" [(ngModel)]="estadoId" formControlName="EstadoId" class="form-control" required> -->
+  <!-- <input class="form-control" type="number" id="ciudadId" [(ngModel)]="ciudadId" formControlName="CiudadId" class="form-control" required> -->

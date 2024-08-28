@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Teddy\\source\\repos\\ExamenAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0847D8FF-32BD-47E4-9335-F9C67F8D69E8}|ExamenAPI\\ExamenAPI.csproj|c:\\users\\teddy\\source\\repos\\examenapi\\examenapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0847D8FF-32BD-47E4-9335-F9C67F8D69E8}|ExamenAPI\\ExamenAPI.csproj|solutionrelative:examenapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0847D8FF-32BD-47E4-9335-F9C67F8D69E8}|ExamenAPI\\ExamenAPI.csproj|c:\\users\\teddy\\source\\repos\\examenapi\\examenapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0847D8FF-32BD-47E4-9335-F9C67F8D69E8}|ExamenAPI\\ExamenAPI.csproj|solutionrelative:examenapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0847D8FF-32BD-47E4-9335-F9C67F8D69E8}|ExamenAPI\\ExamenAPI.csproj|c:\\users\\teddy\\source\\repos\\examenapi\\examenapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0847D8FF-32BD-47E4-9335-F9C67F8D69E8}|ExamenAPI\\ExamenAPI.csproj|solutionrelative:examenapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0847D8FF-32BD-47E4-9335-F9C67F8D69E8}|ExamenAPI\\ExamenAPI.csproj|c:\\users\\teddy\\source\\repos\\examenapi\\examenapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0847D8FF-32BD-47E4-9335-F9C67F8D69E8}|ExamenAPI\\ExamenAPI.csproj|solutionrelative:examenapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0847D8FF-32BD-47E4-9335-F9C67F8D69E8}|ExamenAPI\\ExamenAPI.csproj|c:\\users\\teddy\\source\\repos\\examenapi\\examenapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0847D8FF-32BD-47E4-9335-F9C67F8D69E8}|ExamenAPI\\ExamenAPI.csproj|solutionrelative:examenapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0847D8FF-32BD-47E4-9335-F9C67F8D69E8}|ExamenAPI\\ExamenAPI.csproj|c:\\users\\teddy\\source\\repos\\examenapi\\examenapi\\examenapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0847D8FF-32BD-47E4-9335-F9C67F8D69E8}|ExamenAPI\\ExamenAPI.csproj|solutionrelative:examenapi\\examenapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0847D8FF-32BD-47E4-9335-F9C67F8D69E8}|ExamenAPI\\ExamenAPI.csproj|c:\\users\\teddy\\source\\repos\\examenapi\\examenapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0847D8FF-32BD-47E4-9335-F9C67F8D69E8}|ExamenAPI\\ExamenAPI.csproj|solutionrelative:examenapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Teddy\\source\\repos\\ExamenAPI\\ExamenAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ExamenAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Teddy\\source\\repos\\ExamenAPI\\ExamenAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ExamenAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-24T22:13:18.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExamenAPI",
+              "DocumentMoniker": "C:\\Users\\Teddy\\source\\repos\\ExamenAPI\\ExamenAPI\\ExamenAPI.csproj",
+              "RelativeDocumentMoniker": "ExamenAPI\\ExamenAPI.csproj",
+              "ToolTip": "C:\\Users\\Teddy\\source\\repos\\ExamenAPI\\ExamenAPI\\ExamenAPI.csproj",
+              "RelativeToolTip": "ExamenAPI\\ExamenAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-24T22:11:01.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Teddy\\source\\repos\\ExamenAPI\\ExamenAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ExamenAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Teddy\\source\\repos\\ExamenAPI\\ExamenAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ExamenAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAswM0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T22:09:41.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Teddy\\source\\repos\\ExamenAPI\\ExamenAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ExamenAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Teddy\\source\\repos\\ExamenAPI\\ExamenAPI\\Models\\User.cs",
+              "RelativeToolTip": "ExamenAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T22:40:16.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Teddy\\source\\repos\\ExamenAPI\\ExamenAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ExamenAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Teddy\\source\\repos\\ExamenAPI\\ExamenAPI\\appsettings.json",
+              "RelativeToolTip": "ExamenAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-24T22:10:03.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Teddy\\source\\repos\\ExamenAPI\\ExamenAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "ExamenAPI\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Teddy\\source\\repos\\ExamenAPI\\ExamenAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "ExamenAPI\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T22:08:36.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Teddy\\source\\repos\\ExamenAPI\\ExamenAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ExamenAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Teddy\\source\\repos\\ExamenAPI\\ExamenAPI\\Program.cs",
+              "RelativeToolTip": "ExamenAPI\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T22:08:27.248Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
