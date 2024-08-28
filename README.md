@@ -1,7 +1,7 @@
 "# ExamenNezter" 
 
 
-NOMBRE: Gerardo Emmanuel Duran Quiñones 
+"NOMBRE: Gerardo Emmanuel Duran Quiñones 
 FECHA: 28/08/24
 INSTRUCCIONES 
 Realizar un sistema web para el manejo de usuarios, con (Altas, Bajas, Cambios y 
@@ -18,7 +18,7 @@ frontend.
 • No utilizar los controles de tipo asp:SQLDataSource. 
 Requisitos Deseables Opcionales para conocer el nivel de conocimientos técnicos: 
 Utilizar Store procedures para ser implementados Altas, Bajas, Cambios y Consulta. 
-Crear una vista para implementarla en la consulta. 
+Crear una vista para implementarla en la consulta. "
 Implementar al framework de diseño (Bootstrap, Foundation o Algún 
 otro).  --->  Boostrap
 -------------------------------------------------------------------------------
